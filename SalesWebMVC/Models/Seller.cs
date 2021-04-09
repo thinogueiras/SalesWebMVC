@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
@@ -40,7 +41,7 @@ namespace SalesWebMVC.Models
 
         public Seller()
         {
-
+            
         }
 
         public Seller(int id, string name, string email, DateTime birthDate, double baseSalary, Department department)
